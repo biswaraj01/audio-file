@@ -1,9 +1,4 @@
 import qrcode
-import sqlite3
-
-# conn = sqlite3.connect('D:\\demo\\alpha.db')
-
-# conn.close()
 
 features = qrcode.QRCode(version = 1, box_size = 30, border = 3)
 
